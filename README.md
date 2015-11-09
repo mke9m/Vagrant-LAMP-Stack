@@ -25,9 +25,9 @@ Webmin has been commented out as it is not working as expected.
                                       --Instructions for running this script--
 
 NOTE: Anything in “” is a command
-1. Create a folder for your VM
+ 1. Create a folder for your VM
 
-2. Run the following command in the folder you have created: “vagrant init hashicorp/precise32”
+ 2. Run the following command in the folder you have created: “vagrant init hashicorp/precise32”
 
 You should see the following result:
 A `Vagrantfile` has been placed in this directory. You are now
@@ -36,7 +36,7 @@ the comments in the Vagrantfile as well as documentation on
 `vagrantup.com` for more information on using Vagrant.
 Clone this repository and place the VAGRANT and bootstrap file in the folder you have created above and overwrite the default VAGRANT file.
 
-3. Run the command “vagrant up”
+ 3. Run the command “vagrant up”
 Once the script has completed run “vagrant ssh” this should show you the below output or similar 
 Host: 127.0.0.1
 Port: 22
