@@ -1,5 +1,6 @@
 # Vagrant-LAMP-Stack
 
+<<<<<<< HEAD
 --Prerequisites--
 Virtual Box -- https://www.virtualbox.org/wiki/Downloads
 Vagrant -- https://www.vagrantup.com/
@@ -44,3 +45,10 @@ Use the above information to SHH with whatever SSH client you prefer. The userna
 * Add phpmyadmin install
 * Enable and configure SAMBA, also write a batch file to map the drive
 
+=======
+Script to install ubuntu 12.04 with the lamp stack
+
+-Not currently working %100
+
+Instructions to follow.....
+>>>>>>> origin/master
