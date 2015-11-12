@@ -1,8 +1,17 @@
 #!/bin/bash
 
+#Add webmin to sources
+sudo echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
+sudo echo "deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib" >> /etc/apt/sources.list
+
+
 # Updating repository
 
 sudo apt-get -y update
+
+#add key for webmin
+wget http://www.webmin.com/jcameron-key.asc
+sudo apt-key add jcameron-key.asc
 
 # Installing Apache
 
@@ -31,18 +40,7 @@ sed -i "s/AllowOverride None/AllowOverride All/g" /etc/apache2/apache2.conf
 sed -i "s/error_reporting = .*/error_reporting = E_ALL/" /etc/php5/apache2/php.ini
 sed -i "s/display_errors = .*/display_errors = On/" /etc/php5/apache2/php.ini
 
-
-#Add webmin to sources
-
-sudo echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
-sudo echo "deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib" >> /etc/apt/sources.list
-
-#add key for webmin
-wget http://www.webmin.com/jcameron-key.asc
-sudo apt-key add jcameron-key.asc
-
 #install webmin
-sudo apt-get update
 sudo apt-get -y install webmin
 
 
