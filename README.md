@@ -61,7 +61,7 @@ You should see the following result:
 this should show you the below output or similar 
 
     Host: 192.168.50.4
-    Port: 2222
+    Port: 22
     Username: vagrant 
 
 Use the above information to SHH with whatever SSH client you prefer. The username is vagrant and the password is vagrant.
@@ -78,6 +78,7 @@ Additional Notes
 ----------------
 
 **All passwords used in this tutorial should be reset.**
+Connect to SSH via 192.168.50.4 port 22
 
 Upcoming in v1.3
 ----------------
