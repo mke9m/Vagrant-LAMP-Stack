@@ -1,7 +1,7 @@
-Vagrant-LAMP-Stack
+Vagrant-LAMP-Stack Ubuntu 12.04LTS
 ==================
 
-
+*Current version 1.2*
                                                         
                                                       
 
@@ -57,19 +57,27 @@ You should see the following result:
 
 this should show you the below output or similar 
 
-    Host: 127.0.0.1
-    Port: 22
+    Host: 192.168.50.4
+    Port: 2222
     Username: vagrant 
 
 Use the above information to SHH with whatever SSH client you prefer. The username is vagrant and the password is vagrant.
+
+Change Log
+----------
+
+*v1.2*
+
+ - Added webmin to source list
+ - Installed webmin, access via https://192.168.50.4:10000/
 
 Additional Notes
 ----------------
 
 **All passwords used in this tutorial should be reset.**
 
-Upcoming in v1.2
+Upcoming in v1.3
 ----------------
 
- - Install webmin
  - install phpmyadmin
+ - Create a SAMBA share for the www directory
