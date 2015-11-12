@@ -80,8 +80,4 @@ Upcoming in v1.3
 ----------------
 
  - install phpmyadmin
-<<<<<<< HEAD
  - Create a SAMBA share for the www directory
-=======
- - Create a SAMBA share for the www directory
->>>>>>> 36c4ec60ec085da4bd6b6591bf008e83e455982e
