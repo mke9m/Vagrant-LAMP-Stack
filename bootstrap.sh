@@ -4,14 +4,14 @@
 sudo echo "deb http://download.webmin.com/download/repository sarge contrib" >> /etc/apt/sources.list
 sudo echo "deb http://webmin.mirror.somersettechsolutions.co.uk/repository sarge contrib" >> /etc/apt/sources.list
 
+#add key for webmin
+wget http://www.webmin.com/jcameron-key.asc
+sudo apt-key add jcameron-key.asc
+
 
 # Updating repository
 
 sudo apt-get -y update
-
-#add key for webmin
-wget http://www.webmin.com/jcameron-key.asc
-sudo apt-key add jcameron-key.asc
 
 # Installing Apache
 
