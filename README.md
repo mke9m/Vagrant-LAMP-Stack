@@ -30,8 +30,6 @@ This vagrant script will install the following on Ubuntu 12.04
 *Apache mod rewrite has been enabled
 *passwords in this script have been set to ‘password’ I suggest you change this before running the script.
 
-Webmin has been commented out as it is not working as expected.
-
 
 Instructions
 ------------
