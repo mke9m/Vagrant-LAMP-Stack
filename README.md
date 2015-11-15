@@ -39,19 +39,7 @@ Instructions
 
  
  - Create a folder for your VM
- - Run the following command in the folder you have created:
 
-
-    vagrant init hashicorp/precise32
-
-You should see the following result:
-
-    A `Vagrantfile` has been placed in this directory. You are now
-    ready to `vagrant up` your first virtual environment! Please read
-    the comments in the Vagrantfile as well as documentation on
-    `vagrantup.com` for more information on using Vagrant.
-
- 
  - Clone this repository and place the VAGRANT and bootstrap file in
            the folder you have created above and overwrite the default VAGRANT
            file.
